@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "n/no-unpublished-import": [
+      "error",
+      {
+        "allowModules": ["@japa/runner","@japa/expect"]
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
